@@ -42,7 +42,7 @@ justify-content: space-between;
 
 .container-header {
 display: flex;
-direction: row; 
+flex-direction: row; 
     padding: 24px 0;
     justify-content: center;
     margin: 0 auto;
@@ -54,7 +54,7 @@ direction: row;
 
 .nav-header {
 display: flex;
-direction: row;
+flex-direction: row;
 align-items: center;
 margin-right: auto;
 }
@@ -63,7 +63,8 @@ margin-right: auto;
     background: #2e2f42;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
     padding: 188px 478px;
 } 
 
@@ -95,6 +96,10 @@ margin-right: auto;
 
 .container-footer {
     background-color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding: 100px 156px;
 }
 
 /*------Header--------*/
@@ -183,8 +188,9 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 width: 496px;
-margin: 0 auto;
-padding-bottom: 48px; 
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 48px; 
 }
 
 .title-btn {
@@ -198,9 +204,10 @@ color: #fff;
 border: none;
 border-radius: 4px;
 width: 169px;
-padding-top: 16px;
-padding-bottom: 16px;
+padding: 16px 32px;
 background-color: #4D5AE5;
+margin-right: auto;
+margin-left: auto;
 
 }
 
@@ -303,12 +310,17 @@ text-align: center;
     padding: 32px 16px;
     }
 
+.portfolio-images {
+    margin: 0 auto;
+}
+
 .portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;    
+    color: #2e2f42;
+    margin-bottom: 8px;    
 }
 
 .portfolio-text {
@@ -331,6 +343,8 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #2e2f42;
+    max-width: 264px;
+    margin-top: 16px;
 }
 
 .logo-footer-colored {
