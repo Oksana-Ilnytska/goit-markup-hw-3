@@ -314,7 +314,7 @@ letter-spacing: 0.02em;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px 24px;
     border: 1px solid #e7e9fc;
     
 }
