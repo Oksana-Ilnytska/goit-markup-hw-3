@@ -197,8 +197,7 @@ text-transform: capitalize;
 }
 
 .container-features {
-    width: 1158px;
-    margin: 0 auto;  
+    width: 1158px; 
 }
 
 .visually-hidden {
@@ -313,7 +312,6 @@ letter-spacing: 0.02em;
 
 .portfolio-list {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 48px 24px;
     border: 1px solid #e7e9fc;
