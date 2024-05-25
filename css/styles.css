@@ -61,7 +61,6 @@ margin-right: auto;
 }
 
 .menu-list {
-    margin-left: 76px;
     display: flex;
     direction: row;
     gap: 40px
@@ -87,7 +86,6 @@ padding-bottom: 24px;
 }
 
 .logo {
-    
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -211,8 +209,9 @@ width: 1px;
 height: 1px;
 border: 0;
 padding: 0;
+margin: -1;
 white-space: nowrap;
-clip-path: inset(50%);
+clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
@@ -268,8 +267,8 @@ padding: 120px 0;
 }
 
 .team-item {
-    background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
+    background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -356,13 +355,7 @@ letter-spacing: 0.02em;
 /*------Footer-------*/
 
 
-.container-footer {
-    background-color: #2e2f42;
-    display: flex;
-    flex-direction: column;
-    align-items:start;
-    
-}
+
 
 .footer {
     background-color: #2e2f42;
