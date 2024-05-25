@@ -206,7 +206,7 @@ width: 1px;
 height: 1px;
 border: 0;
 padding: 0;
-margin: -1;
+margin: -1px;
 white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0 0 0 0);
@@ -315,8 +315,6 @@ letter-spacing: 0.02em;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    border: 1px solid #e7e9fc;
-    
 }
 
 .portfolio-item {
