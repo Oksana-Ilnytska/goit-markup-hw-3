@@ -58,7 +58,7 @@ margin-right: auto;
 .menu-list {
     display: flex;
     direction: row;
-    gap: 40px
+    gap: 40px;
 } 
 
 .menu-item {
@@ -88,7 +88,7 @@ padding-bottom: 24px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
+    margin-right: 76px;
 
 }
 
